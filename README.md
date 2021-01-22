@@ -50,7 +50,7 @@ Since this is a school project, I already had a framework that I could use. The 
 
 Below is a screenshot of my code which relates to the emotions I gave my agent
 
-![alt text](https://imgur.com/a/MOJOesP)
+![alt text](https://i.imgur.com/DCLpFrW.png)
 
 
 

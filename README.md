@@ -90,9 +90,11 @@ We already talked about how if the agent becomes more bored, he'll be more likel
 
 ### Fear
 
-The more an agent becomes scared, the more his wandering behavior will be slower an shuddery. Humans have two reactions to fear, either to keep going and not think about it, or start becoming paranoid and freezing in fear. This is what I tried to portray in my timidBrave personality factor. 
+The more an agent becomes scared, the more his wandering behavior will be slower an shuddery. Humans have two reactions to fear, either to keep going and not think about it, or start becoming paranoid and turning around in fear. This is what I tried to portray in my timidBrave personality factor. 
 
-INSERT GIF HERE!!!!!!!!!!!!!
+For the purpose of showcasing the fear increasing as the agent gets hit, I made it so it doesn't go towards buildings, it only wanders around
+
+![alt text](https://i.imgur.com/3tXkbuM.gif)
 
 The more an agent becomes scared, the more it'll start shaking and quivering, of course, braver agents will be less affected by this, and will not be pushed into a state of fear as easily.
 
@@ -102,4 +104,39 @@ The more an agent becomes angry, the more it'll feel the need to start turning a
 If he gets too angry, however, he'll go into a blind rage, meaning that regardless if he has a gun, he'll start looking around. 
 
 ![alt text](https://i.imgur.com/0awnHt8.png)
+
+As is logical, if the agent is rather calm than hasty, it will be easier for the agent to remain calm. 
+
+## Testing
+
+While testing my agent, it became apparent that the behaviors sometimes yielded an agent who could survive in this zombie survival game for longer, the getting angry would sometimes help my agent shoot zombies that were running behind him, but were not in his field of view, making it so he shot zombies before they had a chance to approach.
+
+The fear emotion was often less helpful, since it slows the character down to look around more, meaning it would be harder to find new houses with items in them, on the other side, this resulted in the character becoming bored more quickly, since it's not discovering anything new.
+This resulted in the agent wanting to run, making it faster.
+
+Everytime the emotion timer went off (decreasing the anger, boredom and fear factors), I would print the agent's emotional state to the console. 
+So I could get feedback on how scared, angry or bored he was at that time.
+
+For the purpose of showcasing, I made my memory very low, so the agent quickly forgets about what happened a few seconds before.
+
+![alt text](https://i.imgur.com/6gN9xGr.gif)
+
+
+
+## Result
+
+In the end I was able to create an AI with a simplistic understanding of some basic human emotions. 
+Through my own observations I found that some combinations of personality traits worked better than others, such as a brave and hasty character. Or an inattentive and timid one.
+
+## Conclusion
+Overall I had a lot of fun implementing this into my zombie survival game, and I could definetely see the benefits of these mechanics in video games. 
+Story driven video games where the player has a lot of interaction with the AI such as Mass Effect could benefit from this, opening the player to different playstyles, where characters have an (artificial) emotional connection to the player, opening up a plethora of interesting game mechanics.
+
+Some things were unfortunately unable to be implemented due to the restrictions of the framework, I would have like to make hasty agents hold grudges against zombies who previously hit them. 
+
+## Future Work
+
+As I said, some things were unimplemeted due to framework restrictions, but some things were also unable to be implemented because they wouldn't serve any significant purpose.
+Having the emotion Joy, making the player happy upon certain interactions would definetely be fun, but as for the game I worked with, I didn't see how the character feeling joyous could have any difference on how it behaves.
+
 

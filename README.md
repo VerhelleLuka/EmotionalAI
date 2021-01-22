@@ -52,5 +52,20 @@ Below is a screenshot of my code which relates to the emotions I gave my agent
 
 ![alt text](https://i.imgur.com/DCLpFrW.png)
 
+### Interactions which affect mood and memory
+
+Now to decide which interactions affect which emotions. This is where the programming of the emotions becomes related to how I would react to certain situations.
+
+For example, I made it so that when the agent is excecuting his wandering behavior (where it just walks around, looking for houses to scanvenge items) for more than 5 seconds + it's inattentiveDedicated personality, he becomes more bored.
+
+The more the agent becomes bored, the more he'll be tempted to start running in order to become less bored. 
+The more he becomes bored, the more his memory decreases, because as humans work (or at least I do), when I become bored I want to forget about it and find something new.
+
+![alt text](https://i.imgur.com/CChbGIp.png)
+
+But if for example my agent get's bitten by a zombie, his memory will increase, and so will his anger.
+
+
+
 
 

@@ -56,8 +56,7 @@ Below is a screenshot of my code which relates to the emotions I gave my agent
 
 Now to decide which interactions affect which emotions. This is where the programming of the emotions becomes related to how I would react to certain situations.
 
-For example, I made it so that when the agent is excecuting his wandering behavior (where it just walks around, looking for houses to scanvenge items) for more than 5 seconds + it's inattentiveDedicated personality, he becomes more bored.
-
+For example, I made it so that when the agent is excecuting his wandering behavior (where it just walks around, looking for houses to scanvenge items) for more than 5 seconds + it's inattentiveDedicated rating, he becomes more bored.
 
 The more the agent becomes bored, the more he'll be tempted to start running in order to become less bored. 
 The more he becomes bored, the more his memory decreases, because as humans work (or at least I do), when I become bored I want to forget about it and find something new.
@@ -66,14 +65,41 @@ The more he becomes bored, the more his memory decreases, because as humans work
 
 But if for example my agent get's bitten by a zombie, his memory will increase, and so will his anger.
 
+Fear is also a mood in my agent, how quickly my agent becomes scared is in his timidBrave rating, there's only one thing that scares the player, which is being bitten by a zombie. Continue reading to read about how all these moods and personalities affect the agent's behavior.
+
+The memory works as a timer, making the agent become more neutral over time. 
+Whenever the memory timer is done counting, the players anger, boredom and fear wil decrease.
+
+![alt text](https://i.imgur.com/ym84K5a.png)
+
 ### Mood points
 
 I added mood points as a simple form of the mood factor, where if the mood points are higher than a personality trait, the mood that is affected is affected more heavily.
 For example, say my agent has a calmHasty rating of 0.9 (meaning it gets angry very easily), and a zombie bites him.
 This will make my agent more angry, but if my mood points are higher than it's calmHasty rating, his anger points (which represents how angry he is) will go up by a few extra points.
 
-![alt text] (https://i.imgur.com/7R2DThU.png)
+![alt text](https://i.imgur.com/7R2DThU.png)
 
 
 
+## Effect on behavior
+
+So now that we know how our mood and memory is affected by interactions and personality, how do these changes in mood and memory translate to his behavior?
+
+We already talked about how if the agent becomes more bored, he'll be more likely to start running in order to become less bored in "Interactions which affect mood and memory", so I won't be going over that again.
+
+### Fear
+
+The more an agent becomes scared, the more his wandering behavior will be slower an shuddery. Humans have two reactions to fear, either to keep going and not think about it, or start becoming paranoid and freezing in fear. This is what I tried to portray in my timidBrave personality factor. 
+
+INSERT GIF HERE!!!!!!!!!!!!!
+
+The more an agent becomes scared, the more it'll start shaking and quivering, of course, braver agents will be less affected by this, and will not be pushed into a state of fear as easily.
+
+### Anger
+
+The more an agent becomes angry, the more it'll feel the need to start turning around, looking for enemies to kill. Killing enemies lowers the agent's anger
+If he gets too angry, however, he'll go into a blind rage, meaning that regardless if he has a gun, he'll start looking around. 
+
+![alt text](https://i.imgur.com/0awnHt8.png)
 

@@ -58,6 +58,7 @@ Now to decide which interactions affect which emotions. This is where the progra
 
 For example, I made it so that when the agent is excecuting his wandering behavior (where it just walks around, looking for houses to scanvenge items) for more than 5 seconds + it's inattentiveDedicated personality, he becomes more bored.
 
+
 The more the agent becomes bored, the more he'll be tempted to start running in order to become less bored. 
 The more he becomes bored, the more his memory decreases, because as humans work (or at least I do), when I become bored I want to forget about it and find something new.
 
@@ -65,6 +66,13 @@ The more he becomes bored, the more his memory decreases, because as humans work
 
 But if for example my agent get's bitten by a zombie, his memory will increase, and so will his anger.
 
+### Mood points
+
+I added mood points as a simple form of the mood factor, where if the mood points are higher than a personality trait, the mood that is affected is affected more heavily.
+For example, say my agent has a calmHasty rating of 0.9 (meaning it gets angry very easily), and a zombie bites him.
+This will make my agent more angry, but if my mood points are higher than it's calmHasty rating, his anger points (which represents how angry he is) will go up by a few extra points.
+
+![alt text] (https://i.imgur.com/7R2DThU.png)
 
 
 

@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  AgentBehaviors.cpp
+  EBehaviorTree.cpp
+  Plugin.cpp
+C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\project\Behaviors.h(621,52): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  SteeringBehaviors.cpp
+  Generating Code...
+C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\project\Behaviors.h(1260): warning C4715: '<lambda_6fbbdb5706050c56a32411cc89166049>::operator()': not all control paths return a value
+C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\project\Behaviors.h(1280): warning C4715: '<lambda_d070b48234e2e57847fc7d45e2202c0b>::operator()': not all control paths return a value
+C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\project\Behaviors.h(1270): warning C4715: '<lambda_5da8bdfa88ce2296183c0d6234f341c2>::operator()': not all control paths return a value
+     Creating library C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\project\..\_DEMO_DEBUG\GPP_Plugin_d.lib and object C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\project\..\_DEMO_DEBUG\GPP_Plugin_d.exp
+GPP_PluginBase_d.lib(IBaseInterface.obj) : warning LNK4099: PDB 'GPP_Framework_PluginBase.pdb' was not found with 'GPP_PluginBase_d.lib(IBaseInterface.obj)' or at 'C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\_DEMO_DEBUG\GPP_Framework_PluginBase.pdb'; linking object as if no debug info
+GPP_PluginBase_d.lib(stdafx.obj) : warning LNK4099: PDB 'GPP_Framework_PluginBase.pdb' was not found with 'GPP_PluginBase_d.lib(stdafx.obj)' or at 'C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\_DEMO_DEBUG\GPP_Framework_PluginBase.pdb'; linking object as if no debug info
+  GPP_Exam.vcxproj -> C:\Users\lukav\OneDrive - Hogeschool West-Vlaanderen\Gameplay Programming\Exam\GPP_Exam_Assignment\2DAE08_Verhelle_Luka_GPP-Exam2020\Source_ZombieGameAI\_DEMO_DEBUG\GPP_Plugin_d.dll
